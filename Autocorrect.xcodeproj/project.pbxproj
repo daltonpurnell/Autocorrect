@@ -19,6 +19,9 @@
 		713E0898193EE8FB006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E0880193EE8FB006CA563 /* UIKit.framework */; };
 		713E08A0193EE8FB006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E089E193EE8FB006CA563 /* InfoPlist.strings */; };
 		713E08A2193EE8FB006CA563 /* AutocorrectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08A1193EE8FB006CA563 /* AutocorrectTests.m */; };
+		CFCF99831ADF4BDC0059EC12 /* ACImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCF99821ADF4BDC0059EC12 /* ACImageScrollViewController.m */; };
+		CFCF99851ADF4C6A0059EC12 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCF99841ADF4C6A0059EC12 /* 1.jpg */; };
+		CFCF99871ADF4C840059EC12 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFCF99861ADF4C840059EC12 /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		713E089D193EE8FB006CA563 /* AutocorrectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutocorrectTests-Info.plist"; sourceTree = "<group>"; };
 		713E089F193EE8FB006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E08A1193EE8FB006CA563 /* AutocorrectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutocorrectTests.m; sourceTree = "<group>"; };
+		CFCF99811ADF4BDC0059EC12 /* ACImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACImageScrollViewController.h; sourceTree = "<group>"; };
+		CFCF99821ADF4BDC0059EC12 /* ACImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACImageScrollViewController.m; sourceTree = "<group>"; };
+		CFCF99841ADF4C6A0059EC12 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CFCF99861ADF4C840059EC12 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +116,11 @@
 			children = (
 				713E088B193EE8FB006CA563 /* ACAppDelegate.h */,
 				713E088C193EE8FB006CA563 /* ACAppDelegate.m */,
+				CFCF99811ADF4BDC0059EC12 /* ACImageScrollViewController.h */,
+				CFCF99821ADF4BDC0059EC12 /* ACImageScrollViewController.m */,
 				713E088E193EE8FB006CA563 /* Images.xcassets */,
+				CFCF99841ADF4C6A0059EC12 /* 1.jpg */,
+				CFCF99861ADF4C840059EC12 /* 2.jpg */,
 				713E0883193EE8FB006CA563 /* Supporting Files */,
 			);
 			path = Autocorrect;
@@ -221,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E0887193EE8FB006CA563 /* InfoPlist.strings in Resources */,
+				CFCF99871ADF4C840059EC12 /* 2.jpg in Resources */,
+				CFCF99851ADF4C6A0059EC12 /* 1.jpg in Resources */,
 				713E088F193EE8FB006CA563 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E088D193EE8FB006CA563 /* ACAppDelegate.m in Sources */,
+				CFCF99831ADF4BDC0059EC12 /* ACImageScrollViewController.m in Sources */,
 				713E0889193EE8FB006CA563 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +452,7 @@
 				713E08A7193EE8FB006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E08A8193EE8FB006CA563 /* Build configuration list for PBXNativeTarget "AutocorrectTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +461,7 @@
 				713E08AA193EE8FB006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
